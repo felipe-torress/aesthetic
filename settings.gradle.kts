@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Aesthetic"
 include(":app")
+include(":domain")
+include(":data")
