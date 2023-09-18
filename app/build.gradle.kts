@@ -69,4 +69,7 @@ dependencies {
 
     // Implementing Data Module
     implementation(project(":data"))
+
+    // Country Code Picker (CCP)
+    implementation("com.hbb20:ccp:2.6.0")
 }
