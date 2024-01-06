@@ -1,4 +1,4 @@
-package com.example.data.repositories
+package com.example.data.repositories.masterpiece
 
 import com.example.data.models.masterpiece.Masterpiece
 
