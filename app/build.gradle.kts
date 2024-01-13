@@ -67,9 +67,6 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
-    // Implementing Data Module
-    implementation(project(":data"))
-
     // Country Code Picker (CCP)
     implementation("com.hbb20:ccp:2.6.0")
 }
