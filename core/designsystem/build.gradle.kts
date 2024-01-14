@@ -5,21 +5,16 @@ plugins {
 }
 
 android {
-    namespace = "com.example.designsystem"
-    compileSdk = 34
+    namespace = "com.example.aesthetic.core.designsystem"
 
     defaultConfig {
-        minSdk = 31
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles("consumer-rules.pro")
     }
 }
 
 dependencies {
     api(libs.androidx.compose.foundation)
     api(libs.androidx.compose.foundation.layout)
-    api(libs.androidx.compose.material.iconsExtended)
     api(libs.androidx.compose.material3)
     api(libs.androidx.compose.runtime)
     api(libs.androidx.compose.ui.tooling.preview)
@@ -28,6 +23,7 @@ dependencies {
     debugApi(libs.androidx.compose.ui.tooling)
 
     implementation(libs.coil.kt.compose)
+    implementation(libs.androidx.core.ktx)
 
     testImplementation(libs.androidx.compose.ui.test)
     testImplementation(libs.accompanist.testharness)
