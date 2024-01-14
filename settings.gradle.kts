@@ -17,3 +17,4 @@ rootProject.name = "Aesthetic"
 include(":app")
 include(":core")
 include(":feature")
+include(":core:designsystem")
