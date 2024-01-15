@@ -24,3 +24,4 @@ include(":core")
 include(":core:designsystem")
 
 include(":feature")
+include(":feature:profile")
