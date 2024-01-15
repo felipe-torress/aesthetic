@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google()
         mavenCentral()
@@ -18,6 +19,8 @@ rootProject.name = "Aesthetic"
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
+
 include(":core")
-include(":feature")
 include(":core:designsystem")
+
+include(":feature")

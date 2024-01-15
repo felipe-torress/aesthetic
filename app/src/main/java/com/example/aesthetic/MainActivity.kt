@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.example.aesthetic.ui.AestheticApp
-import com.example.designsystem.theme.AestheticTheme
+import com.example.aesthetic.core.designsystem.theme.AestheticTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
