@@ -25,3 +25,4 @@ include(":core:designsystem")
 
 include(":feature")
 include(":feature:profile")
+include(":feature:museum")
