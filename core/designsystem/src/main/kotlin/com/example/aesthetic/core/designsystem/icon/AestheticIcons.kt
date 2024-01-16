@@ -9,10 +9,10 @@ import androidx.compose.material.icons.rounded.Settings
 
 object AestheticIcons {
     //region --- NavBar Icons ---
-    val Person = Icons.Rounded.Person
-    val PersonBorder = Icons.Outlined.Person
-    val Add = Icons.Rounded.Add
-    val AddBorder = Icons.Outlined.AddCircle
+    val PersonSelected = Icons.Rounded.Person
+    val PersonUnselected = Icons.Outlined.Person
+    val AddSelected = Icons.Outlined.AddCircle
+    val AddUnselected = Icons.Rounded.Add
     //endregion
 
     //region --- Misc ---
