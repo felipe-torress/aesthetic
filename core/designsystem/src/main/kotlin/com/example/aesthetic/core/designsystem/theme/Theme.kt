@@ -1,6 +1,7 @@
 package com.example.aesthetic.core.designsystem.theme
 
 
+import android.content.res.Configuration
 import android.os.Build
 import androidx.annotation.VisibleForTesting
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -11,6 +12,7 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.tooling.preview.Preview
 
 //region Aesthetic Theme (Material Design 3) ---
 @VisibleForTesting
@@ -103,3 +105,7 @@ fun AestheticTheme(
         content = content
     )
 }
+
+@Preview(uiMode = Configuration.UI_MODE_NIGHT_NO, name = "Light theme")
+@Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, name = "Dark theme")
+annotation class ThemePreviews
