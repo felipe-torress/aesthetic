@@ -17,14 +17,14 @@ enum class TopLevelDestination(
     val titleTextId: Int,
 ) {
     MUSEUM(
-        selectedIcon = AestheticIcons.Add,
-        unselectedIcon = AestheticIcons.AddBorder,
+        selectedIcon = AestheticIcons.AddSelected,
+        unselectedIcon = AestheticIcons.AddUnselected,
         iconTextId = museumR.string.feature_museum_title,
         titleTextId = museumR.string.feature_museum_title,
     ),
     PROFILE(
-        selectedIcon = AestheticIcons.Person,
-        unselectedIcon = AestheticIcons.PersonBorder,
+        selectedIcon = AestheticIcons.PersonSelected,
+        unselectedIcon = AestheticIcons.PersonUnselected,
         iconTextId = profileR.string.feature_profile_title,
         titleTextId = profileR.string.feature_profile_title,
     )
