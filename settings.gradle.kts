@@ -22,7 +22,7 @@ include(":app")
 
 include(":core:designsystem")
 include(":core:model")
+include(":core:data")
 
 include(":feature:profile")
 include(":feature:museum")
-include(":core:data")
