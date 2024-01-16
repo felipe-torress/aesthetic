@@ -47,6 +47,9 @@ android {
 }
 
 dependencies {
+    implementation(projects.feature.museum)
+    implementation(projects.feature.profile)
+
     implementation(projects.core.designsystem)
 
     implementation(libs.androidx.activity.compose)
