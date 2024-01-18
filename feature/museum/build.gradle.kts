@@ -7,3 +7,7 @@ plugins {
 android {
     namespace = "com.example.aesthetic.feature.museum"
 }
+
+dependencies {
+    implementation(projects.core.model)
+}

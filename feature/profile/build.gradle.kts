@@ -7,3 +7,7 @@ plugins {
 android {
     namespace = "com.example.aesthetic.feature.profile"
 }
+
+dependencies {
+    implementation(projects.core.model)
+}
