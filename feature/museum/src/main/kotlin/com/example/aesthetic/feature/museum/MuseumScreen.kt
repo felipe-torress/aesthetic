@@ -32,3 +32,14 @@ fun MuseumScreen(
         Text(stringResource(id = R.string.feature_museum_title))
     }
 }
+
+@Composable
+fun MuseumScreenEmptyState() {
+    Column(
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = Modifier.fillMaxSize()
+    ) {
+        Text(text = stringResource(R.string.feature_museum_screen_empty_state_text))
+    }
+}
